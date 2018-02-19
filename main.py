@@ -61,7 +61,6 @@ def delete():
 
 
 def valueForParam(param, default=None, nullable=True, isList=False):
-	# TODO: test what happens if a list is passed but its only 1 element. it needs to still be a list i.e. ["allergenName"], not just a string
 	if request.method == 'GET':
 		if isList:
 			value = request.args.getlist(param, default)
