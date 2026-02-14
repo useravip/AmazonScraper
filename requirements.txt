@@ -15,5 +15,5 @@ MarkupSafe==1.0
 pytz==2018.3
 requests==2.20.0
 six==1.11.0
-urllib3==2.6.0
+urllib3==2.6.3
 Werkzeug==3.0.6
